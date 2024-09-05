@@ -1,8 +1,5 @@
 package app.rbac
 default allow = false
-allow {
-	user_is_admin
-}
 
 
 allow {
