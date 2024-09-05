@@ -2,7 +2,7 @@
 {
     "users": {
       "alpay": {
-        "roles": ["admin"]
+        "roles": ["user"]
       }
     },
     "role_permissions": {
