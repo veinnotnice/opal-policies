@@ -8,7 +8,7 @@ allow {
 	# user_is_granted[permission]
 }
 
-user_is_granted[permission] {
-	some i
-	role := data.roles[i]
-}
+# user_is_granted[permission] {
+# 	some i
+# 	role := data.roles[i]
+# }
