@@ -13,6 +13,7 @@ policy_permitted[role] {
 	policy.type == input.type
 	policy.action == input.action
 }
+
 user_is_allowed[matched_role] {
     some i, j
     accepted_role := data.roles[i]
