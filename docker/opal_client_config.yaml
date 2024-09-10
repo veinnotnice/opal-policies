@@ -1,0 +1,9 @@
+# opal_client_config.yaml
+server_url: 'http://opal-server:7002'
+fetch:
+  fetch_on_connect: true
+  fetch_on_reconnect: true
+  fetch_interval: 10  # fetch every 10 seconds
+local_bundle:
+  enabled: true
+  path: '/policies'  # Inside the Docker container

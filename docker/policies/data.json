@@ -1,0 +1,20 @@
+{
+  "roles": [
+    "user",
+    "admin"
+  ],
+ "role_permissions": {
+    "user": [
+      {
+        "action": "read",
+        "type": "contact"
+      }
+    ],
+    "admin": [
+      {
+        "action": "read",
+        "type": "contact"
+      }
+    ]
+  }
+}

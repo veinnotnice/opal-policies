@@ -1,0 +1,13 @@
+version: '3'
+services:
+  opa:
+    image: openpolicyagent/opa:latest
+    ports:
+      - "8181:8181" # Exposes OPA on port 8181
+    volumes:
+      - ./policies:/policies # Mounts the local policies directory into the OPA container
+    command:
+      - "run"
+      - "--server"
+      - "--log-level=debug" # Enable debug logging
+      - "/policies"

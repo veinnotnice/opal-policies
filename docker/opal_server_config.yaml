@@ -1,0 +1,6 @@
+# opal_server_config.yaml
+policy_store_type: 'local'
+server:
+  data_sources:
+    - source_type: local
+      local_directory_path: '/policies'  # Inside the Docker container
