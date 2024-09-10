@@ -10,4 +10,5 @@ allow {
 user_is_granted[permission] {
 	some i, j
 	role := data.roles[i]
+	log(role)
 }
