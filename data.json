@@ -1,16 +1,3 @@
-
 {
-    "users": {
-      "alpay": {
-        "roles": ["admin"]
-      }
-    },
-    "role_permissions": {
-      "admin": [
-        {
-          "action": "read",
-          "type": "customer"
-        }
-      ]
-    }
-  }
+    
+}
