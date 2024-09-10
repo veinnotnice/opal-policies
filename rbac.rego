@@ -1,6 +1,6 @@
 package app.rbac
 
-default allow = false
+default allow = true
 
 allow {
 	true
