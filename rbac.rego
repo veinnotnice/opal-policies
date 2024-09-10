@@ -3,7 +3,7 @@ package app.rbac
 default allow = false
 
 allow {
-	true
+	input.user == "bob"
 	# some permission
 	# user_is_granted[permission]
 }
